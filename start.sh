@@ -23,5 +23,5 @@ exec java \
   -XX:SurvivorRatio=32 \
   -Dusing.aikars.flags=https://mcflags.emc.gs \
   -Daikars.new.flags=true \
-  -jar /home/matt/HomeMC/prod_server.jar \
+  -jar /opt/GitHub/HomeMC/prod_server.jar \
   --nogui
