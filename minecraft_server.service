@@ -1,0 +1,21 @@
+[Unit]
+Description=Private Minecraft Service
+After=network.target
+
+[Service]
+Type=simple
+User=minecraft
+WorkingDirectory=/opt/HomeMC/
+
+ExecStart=/opt/HomeMC/start.sh
+ExecStop=/opt/HomeMC/stop.sh
+
+Restart=on-failure
+RestartSec=10
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=minecraft_server_1
+
+[Install]
+WantedBy=multi-user.target
