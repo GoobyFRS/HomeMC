@@ -1,3 +1,8 @@
+# Minecraft Worlds
+world/
+world_maple_2026/
+logs/
+
 # Compiled class file
 *.class
 
