@@ -4,11 +4,11 @@ After=network.target
 
 [Service]
 Type=simple
-User=minecraft
-WorkingDirectory=/opt/HomeMC/
+User=matt
+WorkingDirectory=/home/matt/HomeMC/
 
-ExecStart=/opt/HomeMC/start.sh
-ExecStop=/opt/HomeMC/stop.sh
+ExecStart=/home/matt/HomeMC/start.sh
+ExecStop=/home/matt/HomeMC/stop.sh
 
 Restart=on-failure
 RestartSec=10
