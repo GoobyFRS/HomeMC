@@ -1,0 +1,2 @@
+# HomeMC
+Private Minecraft Server
