@@ -5,10 +5,10 @@ After=network.target
 [Service]
 Type=simple
 User=matt
-WorkingDirectory=/home/matt/HomeMC/
+WorkingDirectory=/opt/GitHub/HomeMC/
 
-ExecStart=/home/matt/HomeMC/start.sh
-ExecStop=/home/matt/HomeMC/stop.sh
+ExecStart=/opt/GitHub/start.sh
+ExecStop=/opt/GitHub/stop.sh
 
 Restart=on-failure
 RestartSec=10
