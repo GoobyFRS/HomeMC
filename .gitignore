@@ -2,6 +2,9 @@
 world/
 world_maple_2026/
 logs/
+bukkit/
+spigot/
+mods/
 
 # Compiled class file
 *.class
@@ -15,7 +18,7 @@ logs/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
