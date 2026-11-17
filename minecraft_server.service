@@ -4,11 +4,11 @@ After=network.target
 
 [Service]
 Type=simple
-User=matt
-WorkingDirectory=/home/matt/HomeMC/
+User=$USER
+WorkingDirectory=/home/$USER/GitHub/HomeMC/
 
-ExecStart=/home/matt/HomeMC/start.sh
-ExecStop=/home/matt/HomeMC/stop.sh
+ExecStart=/home/$USER/GitHub/HomeMC/start.sh
+ExecStop=/home/$USER/GitHub/HomeMC/stop.sh
 
 Restart=on-failure
 RestartSec=10
